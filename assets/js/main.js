@@ -28,7 +28,7 @@ for(var i = 0; i < elements.length; i++) {
         Array.from(imgs).forEach( (img_el) => {
             if(img_el){
                 var img_src = img_el.getAttribute("data-src");
-                if(img_src) img_el.setAttribute("src",img_src);
+                if(img_src) img_el.setAttribute("src", img_src);
             }
         });
     }
@@ -39,15 +39,3 @@ var blocks = document.getElementsByClassName("section");
 
 window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, false);
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
-
-
-$(function(){
-   
-$(".galeria").slick({
-    autoplay:true,
-    slidesToShow:1,
-    slidesToScroll: 1,
-    autoplaySpeed: 5000,
-  });
-  });
-
