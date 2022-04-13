@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
   <title>Xiaomi 12 - Xiaomi Global</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link href="./assets/css/main.css" rel="stylesheet">
-  
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 
 <body>
 
 <div class="xiaomi-12">
 <div class="section section-01 lazy" data-type="bg" data-id="hgh67o29wi"  data-background-image="./assets/media/LP_XIAOMI12_01.jpg" style="background-image: url(./assets/media/LP_XIAOMI12_01.jpg);">
+  
 <div class="text-content">
 <img class="image lazy" data-id="1tvyho1nck" data-src="./assets/media/pc-name.svg" src="./assets/media/pc-name.svg"/>
 <span data-key="slogan_1" class="xm-text head-desc f-bold" data-type="text" data-id="w0s78txune">Master every scene</span>
@@ -49,19 +51,19 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 
 <div class="image-box">
 <div class="left-box">
-<img class="image-left active lazy" data-id="6wfdn9iz78" data-src="./assets/media/pc-blue-left.jpg"/>
-<img class="image-left lazy" data-id="m8sb1fkajt" data-src="./assets/media/pc-black-left.jpg"/>
+<img class="image-left lazy preto-left" data-id="m8sb1fkajt" data-src="./assets/media/pc-black-left.jpg"/>
+<img class="image-left active lazy azul-left" data-id="6wfdn9iz78" data-src="./assets/media/pc-blue-left.jpg"/>
 </div>
 
 <div class="right-box">
-<img class="image-right active lazy" data-id="pyqw7io8a2" data-src="./assets/media/pc-blue-right.jpg"/>
-<img class="image-right lazy" data-id="kmj9082qml" data-src="./assets/media/pc-black-right.jpg"/>
+<img class="image-right lazy preto-right" data-id="kmj9082qml" data-src="./assets/media/pc-black-right.jpg"/>
+<img class="image-right lazy active azul-right" data-id="pyqw7io8a2" data-src="./assets/media/pc-blue-right.jpg"/>
 </div>
 </div>
 
 <ul class="button-box">
 
-<li class="button-item active" >
+<li class="button-item azul active" >
 <div class="button button-2">
 <img class="unactive lazy" data-id="f03jh2k69k" data-src="./assets/media/blue-1.svg"/>
 <img class="active lazy" data-id="vewbhu49nj" data-src="./assets/media/blue-2.svg"/>
@@ -69,7 +71,7 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 <span data-key="overview_7" class="xm-text button-text" data-type="text" data-id="hk64yfywhk">Blue</span>
 </li>
 
-<li class="button-item">
+<li class="button-item preto">
 <div class="button button-3">
 <img class="unactive lazy" data-id="fdm3tcwgfw" data-src="./assets/media/black-1.svg"/>
 <img class="active lazy" data-id="p6bom08ici" data-src="./assets/media/black-2.svg"/>
@@ -98,11 +100,12 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 </div>
 </div>
 
-<div class="btn-slide">
+<!--<div class="btn-slide">
 <span data-key="overview_12" class="xm-text btn-slide-item f-bold active" data-type="text" data-id="sfdui4x5hw">Motion tracking focus</span>
 <span data-key="overview_13" class="xm-text btn-slide-item f-bold" data-type="text" data-id="60ad8ikrqv">Motion capture</span>
 <span data-key="overview_14" class="xm-text btn-slide-item f-bold" data-type="text" data-id="kr2a9h67bw">Eye tracking focus</span>
-</div>
+</div>-->
+
 <span data-key="overview_15" class="xm-text video-slide-tip gray f-thin" data-type="text" data-id="cjwqz1ah14">* This video is for demonstration purposes only.</span>
 </div>
 
@@ -113,61 +116,73 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 <span data-key="overview_17" class="xm-text night-video-desc gray f-thin" data-type="text" data-id="my4ggnvg33">With help from AI algorithms and imaging technology, the video automatically brightens the scene and retains more detail than the naked eye, even when filming in the dark.</span>
 </div>
 
-<div class="video-box lazy" data-type="bg" data-id="mbdfsvej07" data-background-image="https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/night-video.jpg">
-<video class="video_self" data-id="6jbme9jla9" src="./assets/media/xiaomi-12-night-video.mp4"  autoplay muted>
+<div class="video-box lazy" data-type="bg" data-id="mbdfsvej07" data-background-image="./assets/media/night-video.jpg">
+<video class="video" data-id="6jbme9jla9" src="./assets/media/xiaomi-12-night-video.mp4"  autoplay muted controls>
 </video>
 </div>
 </div>
 </div>
 
-<div class="section section-nigth-view lazy" data-type="bg" data-id="mmd1il2wmj" data-background-image="">
-<div class="text-container">
-<span data-key="overview_19" class="xm-text nigth-view-title white f-bold" data-type="text" data-id="8g7vd0hh3j">Multi-scene night views</span>
-<span data-key="overview_20" class="xm-text nigth-view-desc gray f-thin" data-type="text" data-id="ytu0nqkjf6">Not only is the video capability powerful in low light conditions, the picture quality is also excellent as well. Night mode feature on the wide angle and ultra-wide angle cameras helps you capture the lights and shadows of the night more vividly, so you can photograph different scenes at night.</span>
+<div class="section section-nigth-view lazy" data-type="bg" data-id="mmd1il2wmj"
+    data-background-image="">
+    <div class="text-container">
+            <span data-key="overview_19"
+            class="xm-text nigth-view-title white f-bold" data-type="text"
+            data-id="8g7vd0hh3j">Multi-scene night views</span>
+            <span data-key="overview_20"
+            class="xm-text nigth-view-desc gray f-thin" data-type="text" data-id="ytu0nqkjf6">Not only is the video capability powerful in low light conditions, the picture quality is also excellent as well. Night mode feature on the wide angle and ultra-wide angle cameras helps you capture the lights and shadows of the night more vividly, so you can photograph different scenes at night.</span></div>
+    <div class="slide-box">
+        <div class="xm-scroll scroll-slider" data-type="scroll" data-id="uqtsc2vfv3"
+            style="transform:translate(0px, 0px)">
+            <div class="slick-slider slick-initialized" dir="ltr">
+              <button type="button"
+                    data-role="none" class="slick-arrow slick-prev" style="display:block">
+                    <!-- -->Previous
+                </button>
+                <div class="slick-list ">
+                    <div class="slick-track" style="width:500%">
+                      <div data-index="0" class="slick-slide" tabindex="-1" style="outline:none;width:20%">
+                        <div class="galeria">
+                          <img class="lazy lalalalala" src="https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/50MP.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block" />
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button type="button" data-role="none" class="slick-arrow slick-next" style="display:block"> <!-- -->Next </button>
+                <ul style="display:block" class="slick-dots">
+                    <li class="slick-active">
+                      <span data-key="overview_21" class="xm-text slide-btn-wide f-medium" data-type="text" data-id="1uk0pbetbt">Wide angle </span>
+                    </li>
+                    <li class="">
+                      <span data-key="overview_22" class="xm-text slide-btn-ultra f-medium" data-type="text" data-id="iqreq07fit">Ultra-wide</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="slide-box">
+
+<!--<div class="slide-box">
 <div class="xm-scroll scroll-slider" data-type="scroll" data-id="uqtsc2vfv3" style="transform:translate(0px, 0px)">
 <div class="slick-slider slick-initialized" dir="ltr">
-<button type="button" data-role="none" class="slick-arrow slick-prev" style="display:block"><!-- -->Previous</button>
-
-<div class="slick-list">
-<div class="slick-track" style="width:500%;left:-100%">
-<div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:20%">
-<div><img class="lazy" data-src="./assets/media/Ultra-wide.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block"/></div>
+<div class="galeria">
+  <div><img class="lazy" src="./assets/media/50MP.jpg" alt="" style="width:100%;display:inline-block" id="1uk0pbetbt"></div>
+  <div><img class="lazy" src="./assets/media/Ultra-wide.jpg" alt=""style="width:100%;display:inline-block" id="iqreq07fit"></div>
 </div>
-
-<div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline:none;width:20%">
-<div><img class="lazy" data-src="./assets/meida/50MP.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block"/></div>
-</div>
-
-<div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none;width:20%">
-<div><img class="lazy" data-src="./assets/media/Ultra-wide.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block" /></div>
-</div>
-
-<div data-index="2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:20%">
-<div><img class="lazy" data-src="./assets/media/50MP.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block"/></div>
-</div>
-
-<div data-index="3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:20%">
-<div><img class="lazy" data-src="./assets/media/Ultra-wide.jpg" alt="" tabindex="-1" style="width:100%;display:inline-block"/></div>
-
-</div>
-</div>
-</div>
-
-<button type="button" data-role="none" class="slick-arrow slick-next" style="display:block"><!-- -->Next</button>
+<button type="button" data-role="none" class="slick-arrow slick-next" style="display:block"></button>
 <ul style="display:block" class="slick-dots">
-<li class="slick-active">
-<span data-key="overview_21" class="xm-text slide-btn f-medium" data-type="text" data-id="1uk0pbetbt">Wide angle</span></li>
 <li class="">
+<span data-key="overview_21" class="xm-text slide-btn f-medium" data-type="text" data-id="1uk0pbetbt">Wide angle</span></li>
+<li class="slick-active">
 <span data-key="overview_22" class="xm-text slide-btn f-medium" data-type="text" data-id="iqreq07fit">Ultra-wide</span></li>
 </ul>
 
 </div>
 </div>
+
 </div>
-</div>
+</div>-->
 
 <div class="section section-portrait lazy" data-type="bg" data-id="6j0y2dy95n" data-background-image="">
 <div class="text-container">
@@ -176,11 +191,25 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 </div>
 
 <div class="img-box">
-<img class="image lazy" data-id="kpsdhg4zec" data-src="http://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12/portrait.png"/>
+<img class="image lazy" data-id="kpsdhg4zec" data-src="./assets/media/portrait.png"/>
 </div>
 </div>
 
-<div class="lazy" data-type="bg" data-id="zg5gnm12z6" data-background-image="">
+    <div class="parallax-white parallax-container">
+      <span class="title-bold">50MP</span>
+      <span class="text-bold">pro-grade main camera</span>
+    </div>
+
+    <div class="parallax-black parallax-container">
+      <span class="title-bold">50MP</span>
+      <span class="text-bold">pro-grade main camera</span>
+
+    </div>
+
+<div class="parallax-phone">
+</div>
+
+<!--<div class="lazy" data-type="bg" data-id="zg5gnm12z6" data-background-image="">
 <div class="animate-5g">
 <div class="top-box">
 <div class="layer-box">
@@ -224,7 +253,7 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 </div>
 </div>
 </div>
-</div>
+</div>-->
 
 <div class="section section-photo-wall lazy" data-type="bg" data-id="e5gbahrutf" data-background-image="">
 <div class="text-box">
@@ -530,7 +559,7 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 </div>
 
 
-<div class="section section-go-specs lazy" data-type="bg" data-id="271ycgp8yl" data-background-image="https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/bottom-see-specs.jpg" style="background-image: url(https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/bottom-see-specs.jpg);">
+<div class="section section-go-specs lazy" data-type="bg" data-id="271ycgp8yl" data-background-image="https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/bottom-see-specs.jpg" style="background-image: url(./assets/media/LP_XIAOMI12_05.jpg);">
 
 <a class="xm-link go-specs f-bold xm-button" href="#" data-type="button" data-id="atfy22r4wp">Compre Agora</a>
 </div>
@@ -541,7 +570,6 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 <span data-key="overview_115" class="xm-text note" data-type="text" data-id="9egl0v5b92">* 5G requires the support of local telecom operator services, and may not be available in all regions.</span>
 <span data-key="overview_116" class="xm-text note" data-type="text" data-id="o2kcsy9my8">* All data on this page regarding charging and battery life is obtained from Xiaomi laboratories, and may not reflect the actual product. Actual results may vary according to differences in software version, environment and phone edition.</span>
 
-
 </div>
 </div>
 </div>
@@ -549,6 +577,7 @@ Pleasurable to hold, it makes every interaction a delight.</span>
 </div>
 </div>
 
+<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script defer="defer" type="text/javascript" src="./assets/js/main.js"></script>
 <script defer="defer" type="text/javascript" src="./assets/js/windown.js"></script>
 

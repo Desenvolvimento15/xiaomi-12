@@ -24,6 +24,7 @@ body {
   transform: translateY(0);
   transition: all 1s linear;
 }
+
 .xiaomi-12 .f12 {
   font-size: 0.046875rem;
 }
@@ -607,7 +608,7 @@ body {
 .xiaomi-12 .section-extra-large .text-container {
   left: 1.871094rem;
   position: absolute;
-  top: 1.589844rem;
+  top: 0.589844rem;
   width: 3.90625rem;
   z-index: 1;
 }
@@ -785,7 +786,7 @@ body {
   flex-direction: column;
   left: 50%;
   position: absolute;
-  top: -0.46875rem;
+  top: -1.1rem;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 0px) {
@@ -15907,4 +15908,52 @@ textarea {
   --notice-error: #f14d4d;
   --notice-error-1: #f14d4d;
   --scroll-base: #ddd;
+}
+
+.parallax-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 50%;
+  text-align: center;
+  top: 50vh;
+  height:100vh;
+}
+
+.parallax-white{
+  background-color: #fff;
+  color:#000;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 5000px;
+  z-index:1;
+}
+
+.parallax-black{
+  background-color: #000;
+  color:#fff;
+  min-height: 5000px;
+  z-index: 2;
+}
+
+.parallax-phone{
+  background-image: url("../media/LP_XIAOMI12_03.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 5000px;
+}
+
+.title-bold{
+  font-size: 1.1560rem;
+  font-family: 'Camphor-Heavy', sans-serif;
+}
+
+.text-bold{
+  font-size: 0.28125rem;
+  font-family: 'CamphorPro-Bold', sans-serif;
 }

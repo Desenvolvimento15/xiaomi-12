@@ -39,3 +39,46 @@ var blocks = document.getElementsByClassName("section");
 
 window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, false);
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
+
+
+$(function(){
+   
+    $(".galeria").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
+})
+
+$(".button-2").on("click", function () {
+    $(".preto").removeClass('active');
+    $(".preto-right").removeClass('active');
+    $(".preto-left").removeClass('active');
+    $(".azul").addClass('active');
+    $(".azul-right").addClass('active');
+    $(".azul-left").addClass('active');
+});
+
+$(".button-3").on("click", function () {
+    $(".azul").removeClass('active');
+    $(".azul-right").removeClass('active');
+    $(".azul-left").removeClass('active');
+    $(".preto").addClass('active');
+    $(".preto-right").addClass('active');
+    $(".preto-left").addClass('active');
+});
+
+$(".slide-btn-wide").on("click", function () {
+    $(".slick-dots li:nth-child(1)").addClass('slick-active');
+    $(".slick-dots li:nth-child(2)").removeClass('slick-active');
+    $(".lalalalala").attr('src','https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/50MP.jpg');
+
+});
+
+$(".slide-btn-ultra").on("click", function () {
+    $(".slick-dots li:nth-child(1)").removeClass('slick-active');
+    $(".slick-dots li:nth-child(2)").addClass('slick-active');
+    $(".lalalalala").attr('src','https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/Ultra-wide.jpg');
+});
+
