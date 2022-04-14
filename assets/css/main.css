@@ -1,8 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700&display=swap);
+
+main{
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+
 .xiaomi-12 {
   background-color: #000;
   display: flex;
@@ -10,6 +19,7 @@ body {
   min-width: 1226px;
   overflow: hidden;
   width: 100%;
+ 
 }
 .xiaomi-12 .xm-price,
 .xiaomi-12 .xm-text,
@@ -475,7 +485,7 @@ body {
   margin: unset;
   padding-bottom: 0.0625rem;
   text-align: center;
-  width: 1.195313rem;
+  width: 1.95313rem;
 }
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-nigth-view .slide-box .slick-dots li {
@@ -15930,13 +15940,11 @@ textarea {
   }
 }
 
-
-
 .parallax-phone{
   background-image: url("../media/02.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 5000px;
+  min-height: 100vh;
 }
