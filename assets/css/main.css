@@ -15910,34 +15910,37 @@ textarea {
   --scroll-base: #ddd;
 }
 
-.parallax-container{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  left: 50%;
-  text-align: center;
-  top: 50vh;
-  height:100vh;
-}
+.parallax {
 
-.parallax-white{
-  background-color: #fff;
-  color:#000;
+  background-image: url('../media/50MP.png');
+
+  height: 5000px; 
+ 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 5000px;
-  z-index:1;
+}
+.parallax2 {
+
+  background-image: url('../media/50MP.png');
+	filter:invert(100%);
+
+  height: 5000px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.parallax-black{
-  background-color: #000;
-  color:#fff;
-  min-height: 5000px;
-  z-index: 2;
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
+
+
 
 .parallax-phone{
   background-image: url("../media/LP_XIAOMI12_03.jpg");
@@ -15946,14 +15949,4 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 5000px;
-}
-
-.title-bold{
-  font-size: 1.1560rem;
-  font-family: 'Camphor-Heavy', sans-serif;
-}
-
-.text-bold{
-  font-size: 0.28125rem;
-  font-family: 'CamphorPro-Bold', sans-serif;
 }
