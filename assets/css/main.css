@@ -5,7 +5,6 @@ main{
   padding: 0;
 }
 
-
 body {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -66,108 +65,42 @@ body {
 .xiaomi-12 .f70 {font-size: 0.273438rem;}
 .xiaomi-12 .f72 {font-size: 0.28125rem;}
 .xiaomi-12 .f74 {font-size: 0.289063rem;}
-.xiaomi-12 .f76 {
-  font-size: 0.296875rem;
-}
-.xiaomi-12 .f78 {
-  font-size: 0.304688rem;
-}
-.xiaomi-12 .f80 {
-  font-size: 0.3125rem;
-}
-.xiaomi-12 .f82 {
-  font-size: 0.320313rem;
-}
-.xiaomi-12 .f86 {
-  font-size: 0.335938rem;
-}
-.xiaomi-12 .f88 {
-  font-size: 0.34375rem;
-}
-.xiaomi-12 .f90 {
-  font-size: 0.351563rem;
-}
-.xiaomi-12 .f92 {
-  font-size: 0.359375rem;
-}
-.xiaomi-12 .f98 {
-  font-size: 0.382813rem;
-}
-.xiaomi-12 .f100 {
-  font-size: 0.390625rem;
-}
-.xiaomi-12 .f106 {
-  font-size: 0.414063rem;
-}
-.xiaomi-12 .f108 {
-  font-size: 0.421875rem;
-}
-.xiaomi-12 .f110 {
-  font-size: 0.429688rem;
-}
-.xiaomi-12 .f114 {
-  font-size: 0.445313rem;
-}
-.xiaomi-12 .f116 {
-  font-size: 0.453125rem;
-}
-.xiaomi-12 .f120 {
-  font-size: 0.46875rem;
-}
-.xiaomi-12 .f128 {
-  font-size: 0.5rem;
-}
-.xiaomi-12 .f130 {
-  font-size: 0.507813rem;
-}
-.xiaomi-12 .f138 {
-  font-size: 0.539063rem;
-}
-.xiaomi-12 .f140 {
-  font-size: 0.546875rem;
-}
-.xiaomi-12 .f142 {
-  font-size: 0.554688rem;
-}
-.xiaomi-12 .f144 {
-  font-size: 0.5625rem;
-}
-.xiaomi-12 .f146 {
-  font-size: 0.570313rem;
-}
-.xiaomi-12 .f148 {
-  font-size: 0.578125rem;
-}
-.xiaomi-12 .f150 {
-  font-size: 0.585938rem;
-}
-.xiaomi-12 .f156 {
-  font-size: 0.609375rem;
-}
-.xiaomi-12 .f160 {
-  font-size: 0.625rem;
-}
-.xiaomi-12 .f200 {
-  font-size: 0.78125rem;
-}
-.xiaomi-12 .f248 {
-  font-size: 0.96875rem;
-}
-.xiaomi-12 .white {
-  color: #fff;
-}
-.xiaomi-12 .gray {
-  color: #9a999e;
-}
-.xiaomi-12 .black {
-  color: #000;
-}
-.xiaomi-12 .c666 {
-  color: #666;
-}
-.xiaomi-12 .section {
-  width: 100%;
-}
+.xiaomi-12 .f76 {font-size: 0.296875rem;}
+.xiaomi-12 .f78 {font-size: 0.304688rem;}
+.xiaomi-12 .f80 {font-size: 0.3125rem;}
+.xiaomi-12 .f82 {font-size: 0.320313rem;}
+.xiaomi-12 .f86 {font-size: 0.335938rem;}
+.xiaomi-12 .f88 {font-size: 0.34375rem;}
+.xiaomi-12 .f90 {font-size: 0.351563rem;}
+.xiaomi-12 .f92 {font-size: 0.359375rem;}
+.xiaomi-12 .f98 {font-size: 0.382813rem;}
+.xiaomi-12 .f100 {font-size: 0.390625rem;}
+.xiaomi-12 .f106 {font-size: 0.414063rem;}
+.xiaomi-12 .f108 {font-size: 0.421875rem;}
+.xiaomi-12 .f110 {font-size: 0.429688rem;}
+.xiaomi-12 .f114 {font-size: 0.445313rem;}
+.xiaomi-12 .f116 {font-size: 0.453125rem;}
+.xiaomi-12 .f120 {font-size: 0.46875rem;}
+.xiaomi-12 .f128 {font-size: 0.5rem;}
+.xiaomi-12 .f130 {font-size: 0.507813rem;}
+.xiaomi-12 .f138 {font-size: 0.539063rem;}
+.xiaomi-12 .f140 {font-size: 0.546875rem;}
+.xiaomi-12 .f142 {font-size: 0.554688rem;}
+.xiaomi-12 .f144 {font-size: 0.5625rem;}
+.xiaomi-12 .f146 {font-size: 0.570313rem;}
+.xiaomi-12 .f148 {font-size: 0.578125rem;}
+.xiaomi-12 .f150 {font-size: 0.585938rem;}
+.xiaomi-12 .f156 {font-size: 0.609375rem;}
+.xiaomi-12 .f160 {font-size: 0.625rem;}
+.xiaomi-12 .f200 {font-size: 0.78125rem;}
+.xiaomi-12 .f248 {font-size: 0.96875rem;}
+.xiaomi-12 .white {color: #fff;}
+.xiaomi-12 .gray {color: #9a999e;}
+.xiaomi-12 .black {color: #000;}
+.xiaomi-12 .c666 {color: #666;}
+
+.xiaomi-12 .section {width: 100%;}
+
 .xiaomi-12 .section-01 {
   background-color: #eee;
   background-size: cover;
@@ -176,6 +109,7 @@ body {
   height: 4.988281rem;
   position: relative;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-01 {
     align-items: center;
@@ -184,6 +118,7 @@ body {
     text-align: center;
   }
 }
+
 .xiaomi-12 .section-01 .text-content {
   align-items: center;
   display: flex;
@@ -194,6 +129,7 @@ body {
   top: 1.796875rem;
   width: 2.734375rem;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-01 .text-content {
     align-items: center;
@@ -206,6 +142,7 @@ body {
     width: 32.51953vw;
   }
 }
+
 .xiaomi-12 .section-01 .image {
   height: 0.269531rem;
   width: 2.179688rem;
@@ -218,12 +155,14 @@ body {
     width: 32.51953vw;
   }
 }
+
 .xiaomi-12 .section-01 .head-desc {
   color: #0d0d0d;
   font-size: 0.28125rem;
   line-height: 0.3125rem;
   margin-top: 0.15625rem;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-01 .head-desc {
     font-size: 6.94444vw;
@@ -234,10 +173,12 @@ body {
     margin-top: 1.66016vw;
   }
 }
+
 .xiaomi-12 .section-01 .price {
   font-size: 0.257813rem;
   margin-top: 0.390625rem;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-01 .price {
     display: none;
@@ -245,6 +186,7 @@ body {
     margin-top: 3.51562vw;
   }
 }
+
 .xiaomi-12 .section-04 {
   background-color: #000;
   box-sizing: border-box;
@@ -253,11 +195,13 @@ body {
   padding-top: 0.742188rem;
   position: relative;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 {
     padding-top: 28.33333vw;
   }
 }
+
 .xiaomi-12 .section-04 .text-container {
   display: flex;
   flex-direction: column;
@@ -265,18 +209,21 @@ body {
   position: absolute;
   top: 0;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 .text-container {
     left: 5.83333vw;
     left: 6.83594vw;
   }
 }
+
 .xiaomi-12 .section-04 .design-title {
   font-size: 0.28125rem;
   line-height: 0.3125rem;
   width: 3.125rem;
   z-index: 1;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 .design-title {
     font-size: 6.66667vw;
@@ -287,6 +234,7 @@ body {
     width: 60.54688vw;
   }
 }
+
 .xiaomi-12 .section-04 .design-desc {
   font-size: 0.09375rem;
   line-height: 0.140625rem;
@@ -294,6 +242,7 @@ body {
   width: 3.125rem;
   z-index: 1;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 .design-desc {
     font-size: 3.61111vw;
@@ -306,10 +255,12 @@ body {
     width: 60.54688vw;
   }
 }
+
 .xiaomi-12 .section-04 .image {
   height: 5.175781rem;
   width: 8.613281rem;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 .image {
     height: 145.55556vw;
@@ -319,11 +270,13 @@ body {
     width: 79.19922vw;
   }
 }
+
 .xiaomi-12 .section-nigth-view {
   background-color: #000;
   box-sizing: border-box;
   padding: 1.226563rem 0 2.074219rem;
 }
+
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-nigth-view {
     padding: 33.88889vw 0 0;
