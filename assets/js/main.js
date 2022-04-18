@@ -41,16 +41,6 @@ window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, fal
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
 
 
-$(function(){
-   
-    $(".galeria").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-    });
-})
-
 $(".button-2").on("click", function () {
     $(".preto").removeClass('active');
     $(".preto-right").removeClass('active');
@@ -81,4 +71,3 @@ $(".slide-btn-ultra").on("click", function () {
     $(".slick-dots li:nth-child(2)").addClass('slick-active');
     $(".lalalalala").attr('src','https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/Ultra-wide.jpg');
 });
-
