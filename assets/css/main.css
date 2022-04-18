@@ -255,12 +255,10 @@ body {
     width: 60.54688vw;
   }
 }
-
 .xiaomi-12 .section-04 .image {
   height: 5.175781rem;
   width: 8.613281rem;
 }
-
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-04 .image {
     height: 145.55556vw;
@@ -270,13 +268,11 @@ body {
     width: 79.19922vw;
   }
 }
-
 .xiaomi-12 .section-nigth-view {
   background-color: #000;
   box-sizing: border-box;
   padding: 1.226563rem 0 2.074219rem;
 }
-
 @media screen and (max-width: 0px) {
   .xiaomi-12 .section-nigth-view {
     padding: 33.88889vw 0 0;
