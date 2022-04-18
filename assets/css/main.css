@@ -11,7 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-
 .xiaomi-12 {
   background-color: #000;
   display: flex;
@@ -19,8 +18,8 @@ body {
   min-width: 1226px;
   overflow: hidden;
   width: 100%;
- 
 }
+
 .xiaomi-12 .xm-price,
 .xiaomi-12 .xm-text,
 .xiaomi-12 .xm-visible {
@@ -35,102 +34,38 @@ body {
   transition: all 1s linear;
 }
 
-.xiaomi-12 .f12 {
-  font-size: 0.046875rem;
-}
-.xiaomi-12 .f14 {
-  font-size: 0.054688rem;
-}
-.xiaomi-12 .f16 {
-  font-size: 0.0625rem;
-}
-.xiaomi-12 .f18 {
-  font-size: 0.070313rem;
-}
-.xiaomi-12 .f20 {
-  font-size: 0.078125rem;
-}
-.xiaomi-12 .f22 {
-  font-size: 0.085938rem;
-}
-.xiaomi-12 .f24 {
-  font-size: 0.09375rem;
-}
-.xiaomi-12 .f26 {
-  font-size: 0.101563rem;
-}
-.xiaomi-12 .f28 {
-  font-size: 0.109375rem;
-}
-.xiaomi-12 .f30 {
-  font-size: 0.117188rem;
-}
-.xiaomi-12 .f32 {
-  font-size: 0.125rem;
-}
-.xiaomi-12 .f34 {
-  font-size: 0.132813rem;
-}
-.xiaomi-12 .f36 {
-  font-size: 0.140625rem;
-}
-.xiaomi-12 .f38 {
-  font-size: 0.148438rem;
-}
-.xiaomi-12 .f40 {
-  font-size: 0.15625rem;
-}
-.xiaomi-12 .f42 {
-  font-size: 0.164063rem;
-}
-.xiaomi-12 .f44 {
-  font-size: 0.171875rem;
-}
-.xiaomi-12 .f46 {
-  font-size: 0.179688rem;
-}
-.xiaomi-12 .f48 {
-  font-size: 0.1875rem;
-}
-.xiaomi-12 .f50 {
-  font-size: 0.195313rem;
-}
-.xiaomi-12 .f52 {
-  font-size: 0.203125rem;
-}
-.xiaomi-12 .f54 {
-  font-size: 0.210938rem;
-}
-.xiaomi-12 .f56 {
-  font-size: 0.21875rem;
-}
-.xiaomi-12 .f58 {
-  font-size: 0.226563rem;
-}
-.xiaomi-12 .f60 {
-  font-size: 0.234375rem;
-}
-.xiaomi-12 .f62 {
-  font-size: 0.242188rem;
-}
-.xiaomi-12 .f64 {
-  font-size: 0.25rem;
-}
-.xiaomi-12 .f66 {
-  font-size: 0.257813rem;
-}
-.xiaomi-12 .f68 {
-  font-size: 0.265625rem;
-}
-.xiaomi-12 .f70 {
-  font-size: 0.273438rem;
-}
-.xiaomi-12 .f72 {
-  font-size: 0.28125rem;
-}
-.xiaomi-12 .f74 {
-  font-size: 0.289063rem;
-}
+.xiaomi-12 .f12 {font-size: 0.046875rem;}
+.xiaomi-12 .f14 {font-size: 0.054688rem;}
+.xiaomi-12 .f16 {font-size: 0.0625rem;}
+.xiaomi-12 .f18 {font-size: 0.070313rem;}
+.xiaomi-12 .f20 {font-size: 0.078125rem;}
+.xiaomi-12 .f22 {font-size: 0.085938rem;}
+.xiaomi-12 .f24 {font-size: 0.09375rem;}
+.xiaomi-12 .f26 {font-size: 0.101563rem;}
+.xiaomi-12 .f28 {font-size: 0.109375rem;}
+.xiaomi-12 .f30 {font-size: 0.117188rem;}
+.xiaomi-12 .f32 {font-size: 0.125rem;}
+.xiaomi-12 .f34 {font-size: 0.132813rem;}
+.xiaomi-12 .f36 {font-size: 0.140625rem;}
+.xiaomi-12 .f38 {font-size: 0.148438rem;}
+.xiaomi-12 .f40 {font-size: 0.15625rem;}
+.xiaomi-12 .f42 {font-size: 0.164063rem;}
+.xiaomi-12 .f44 {font-size: 0.171875rem;}
+.xiaomi-12 .f46 {font-size: 0.179688rem;}
+.xiaomi-12 .f48 {font-size: 0.1875rem;}
+.xiaomi-12 .f50 {font-size: 0.195313rem;}
+.xiaomi-12 .f52 {font-size: 0.203125rem;}
+.xiaomi-12 .f54 {font-size: 0.210938rem;}
+.xiaomi-12 .f56 {font-size: 0.21875rem;}
+.xiaomi-12 .f58 {font-size: 0.226563rem;}
+.xiaomi-12 .f60 {font-size: 0.234375rem;}
+.xiaomi-12 .f62 {font-size: 0.242188rem;}
+.xiaomi-12 .f64 {font-size: 0.25rem;}
+.xiaomi-12 .f66 {font-size: 0.257813rem;}
+.xiaomi-12 .f68 {font-size: 0.265625rem;}
+.xiaomi-12 .f70 {font-size: 0.273438rem;}
+.xiaomi-12 .f72 {font-size: 0.28125rem;}
+.xiaomi-12 .f74 {font-size: 0.289063rem;}
 .xiaomi-12 .f76 {
   font-size: 0.296875rem;
 }
@@ -796,7 +731,7 @@ body {
   flex-direction: column;
   left: 50%;
   position: absolute;
-  top: -1.1rem;
+  top: -0.5rem;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 0px) {
