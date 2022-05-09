@@ -60,14 +60,14 @@ $(".button-3").on("click", function () {
 });
 
 $(".slide-btn-wide").on("click", function () {
-    $(".slick-dots li:nth-child(1)").addClass('slick-active');
-    $(".slick-dots li:nth-child(2)").removeClass('slick-active');
+    $(".dots-slick li:nth-child(1)").addClass('active-slick');
+    $(".dots-slick li:nth-child(2)").removeClass('active-slick');
     $(".lalalalala").attr('src','https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/50MP.jpg');
 
 });
 
 $(".slide-btn-ultra").on("click", function () {
-    $(".slick-dots li:nth-child(1)").removeClass('slick-active');
-    $(".slick-dots li:nth-child(2)").addClass('slick-active');
+    $(".dots-slick li:nth-child(1)").removeClass('active-slick');
+    $(".dots-slick li:nth-child(2)").addClass('active-slick');
     $(".lalalalala").attr('src','https://i01.appmifile.com/webfile/globalimg/products/responsive/xiaomi-12-pc/Ultra-wide.jpg');
 });
